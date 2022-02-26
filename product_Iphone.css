@@ -8,7 +8,7 @@
       overflow-x: hidden;
       margin: 0%;
       padding: 0%;
-      background-color: #f1f2f4;
+      background-color: #ebebeb;
   }
   .nav{
       background-color: #2873f0;
@@ -66,6 +66,27 @@
   }
   
   .dropdown-content a:hover {background-color: #ddd;}
+  
   .user:hover .dropdown-content {display: block;}
   
-  
+  /*---------------------------------  */
+
+
+
+  .image{
+      width: 540px;
+      height: 2000px;
+      margin-left: 7%;
+      float: left;
+      border: solid 0.1px rgb(201, 201, 201);
+      background-color: white;
+  }
+
+  .specs{
+    width: 52%;
+    height: 2000px;
+    margin-left: 1%;
+    float: left;
+    border: solid 0.1px rgb(201, 201, 201);
+    background-color: white;
+  }
