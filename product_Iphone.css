@@ -118,7 +118,11 @@
   background-position: 20px;
   border: solid 0.1px rgb(201, 201, 201);
     background-color: white;
+    transition: 0.5s;
 
+}
+#cart{
+  
 }
 
 
