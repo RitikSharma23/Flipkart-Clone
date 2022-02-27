@@ -210,6 +210,22 @@
     background-color: #388e3c;
   }
 
+  .rating-2{
+    margin-top: -3%;
+    margin-left:10.5%;
+  }
+ 
+
+  .rating-23{
+    color: rgb(135 135 135);
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .fasured{
+    vertical-align: middle;
+  }
+
  
 
   
