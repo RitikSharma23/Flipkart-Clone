@@ -117,7 +117,7 @@ body{
   width: 800px;
   margin-top: -245px;
   display: flex;
-  left: 700px;
+  left: 45%;
 }
 
 .manual-btn{
@@ -165,8 +165,8 @@ body{
   position: absolute;
   display: flex;
   width: 800px;
-  left: 700px;
-  margin-top: 255px;
+  left: 45%;
+  margin-top: 255.8px;
 }
 
 .navigation-auto div{
@@ -323,7 +323,6 @@ body{
   top: -228px;
   border: solid 0.1px rgb(201, 201, 201);
   overflow-x: hidden;
-  margin: 0px 0px -300px 0px;
 }
 .div1{
     border: solid;
@@ -396,7 +395,7 @@ body{
 
 footer{
   
-  margin: 40px 0px 0px 0px;
+  margin: -260px 0px 0px 0px;
   width: 94.5%;
   position: relative;
   left: 25px;
