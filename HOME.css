@@ -315,13 +315,13 @@ body{
 
 .mobilebox{
   border: solid;
-  height: 330px;
+  height: 350px;
   width: 96.3%;
   position: relative;
   left: 25px;
   top: -228px;
   border: solid 0.1px rgb(201, 201, 201);
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .div1{
     border: solid;
@@ -419,6 +419,10 @@ footer a:hover{
 }
 .mail,.office{
   margin: 0px 0px 0px 80px;
+}
+
+.rupee{
+  font-weight: 600;
 }
 
 
