@@ -314,71 +314,55 @@ body{
 /* ----------------------- */
 
 
-.mobile_image{
-    display: flex;
-    position: relative;
-    top: -270px;
-    left: -250px;
-    transition: 1s;
-    
+.mobilebox{
+  border: solid;
+  height: 330px;
+  width: 96.3%;
+  position: relative;
+  left: 25px;
+  top: -228px;
+  border: solid 0.1px rgb(201, 201, 201);
+  overflow-x: hidden;
 }
-.mobile_image img{
-  margin-top: 50px;
-    height: 200px;
-    margin-left: 80px;
-    position: relative;
-    /* left: 110px; */
-    
-    
-}
-.mobil{
-    width: 96.5%;
-    border: solid ;
-    height: 50px;
-    position: relative;
-    top: 50px;
-    left: 25px;
-    border: solid 0.1px rgb(201, 201, 201);
-    background-color: white;
-}
-.mobile{
-    height: 330px;
-    width: 96.5%;
+.div1{
     border: solid;
-    position: relative;
-    top: 50px;
-    left: 25px;
-    border: solid 0.1px rgb(201, 201, 201);
-    background-color: white;
-    overflow-x: hidden;
-
-    
+      width: 100%;
+      height: 50px;
+      position: relative;
+      border: solid 0.1px rgb(201, 201, 201);
+      background-color: white;
+  
 }
-
-.mobil > span{
+.div1 span{
     margin: 1.0% 0% 0% 3%;
-    float: left;
-    font-size: 23px;
-    position: relative;
-    top: -280px;
-}
-.mobile_image figcaption span{
-  margin: 0% 0% 0% 5%;
-}
-.mobile_image figcaption {
-  margin: 0% 0% 0% 40%;
-}
-.mobil button{
+      float: left;
+      font-size: 23px;
+  }
+  .div1 button{
     float: right;
-    margin: 0.7% 2% 0% 0%;
-    height: 35px;
-    width: 100px;
-    border: none;
-    background-color: #2873f0;
-    color: white;
-    position: relative;
-    top: -280px;
-}
+      margin: 0.7% 2% 0% 0%;
+      height: 35px;
+      width: 100px;
+      border: none;
+      background-color: #2873f0;
+      color: white;
+  }
+  
+  .div2{
+      display: flex;
+      float: left;
+      overflow-x: hidden;
+      position: relative;
+      left: -0px;
+      z-index: -10;
+      background-color: white;
+  }
+  .div2 img{
+    height: 180px;
+    margin: 20px 30px 0px 30px;
+  
+  }
+  
 #pre2{
     position: relative;
     float: left;
