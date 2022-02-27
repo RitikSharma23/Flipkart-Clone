@@ -29,6 +29,7 @@
     document.getElementById("next2").addEventListener("click",next2);
     document.getElementById("pre2").addEventListener("click",pre2);
     function next2(){
+      document.getElementById("iphone").style.visibility="hidden"
       var a=document.getElementById("div2");
       var b=document.getElementById("next2");
       var c=document.getElementById("pre2");
@@ -43,4 +44,13 @@
       a.style.left="0px";
       b.style.visibility="visible";
       c.style.visibility="hidden";
+      ;
+      
     }
+    
+
+   function time(){
+    document.getElementById("iphone").style.visibility="visible"
+   }
+
+   
