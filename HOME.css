@@ -16,20 +16,25 @@ body{
     height: 45px;
     display: flex;
     padding: 15px 0px 0px 310px;
+    justify-content: center;
 }
 .symbol{
     height: 30px;
+    margin: 0% 5% 0% -30%;
+    float: left;
+    position: relative;
    
 }
 .search{
     height: 30px;
-    width: 260px;   
+    width: 50%;   
 }
 .head{
     display: flex;
-    padding: 0% 5% 0% 7%;
+    padding: 0% 5% 0% 0%;
     border: solid 0.1px rgb(201, 201, 201);
-    background-color: white;
+    background-color: white; 
+    justify-content: center; 
 }
 .head img{
     height: 75px;
@@ -88,6 +93,7 @@ body{
   width: 100vw;
   height: 500px;
   display: flex;
+  border: solid;
 }
 
 .slides input{
@@ -205,7 +211,7 @@ body{
 
 .day{
     border: solid;
-    width: 1250px;
+    width: 80%;
     height: 50px;
     position: relative;
     top: -230px;
@@ -234,7 +240,7 @@ body{
     border:solid;
     display: flex;
     float: left;
-    width: 1230px;
+    width: 80%;
     overflow-x: hidden;
     position: relative;
     left: -25px;
@@ -252,9 +258,9 @@ body{
 .ref{
     float: left;
     height: 300px;
-    width: 297px;
+    width: 10%;
     position: relative;
-    top: -335px;
+    top: -278px;
     left: -23px;
     border:none;
 }
@@ -294,7 +300,7 @@ body{
 #next{
     position: relative;
     float: right;
-    left: -325px;
+    left: -18.4%;
     z-index: 10;
     top: -130px;
     border-radius: 50px;
@@ -323,10 +329,11 @@ body{
     position: relative;
     /* left: 110px; */
     
+    
 }
 .mobil{
     width: 96.5%;
-    border: solid;
+    border: solid ;
     height: 50px;
     position: relative;
     top: 50px;
@@ -343,6 +350,8 @@ body{
     left: 25px;
     border: solid 0.1px rgb(201, 201, 201);
     background-color: white;
+    overflow-x: hidden;
+
     
 }
 
@@ -351,7 +360,7 @@ body{
     float: left;
     font-size: 23px;
     position: relative;
-    top: -333px;
+    top: -280px;
 }
 .mobile_image figcaption span{
   margin: 0% 0% 0% 5%;
@@ -368,7 +377,7 @@ body{
     background-color: #2873f0;
     color: white;
     position: relative;
-    top: -333px;
+    top: -280px;
 }
 #pre2{
     position: relative;
