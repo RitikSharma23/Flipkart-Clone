@@ -113,12 +113,21 @@
        background-color: white;
        height: 50px;
        margin: 0px 0px -14px 50px;   
+       margin: 0px 0px -14px 0px;  
+       position: relative;
+       left: 450px;
+       width: 72%;
+        
        
        
   }
   .error{
       background-color: white;
       height: 501px;
+      margin: 0px 0px -14px 0px; 
+      position: relative;
+      left: 450px;
+      width: 72%;
   }
 
 
