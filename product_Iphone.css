@@ -133,7 +133,7 @@
   background-position: 20px;
   border: solid 0.1px rgb(201, 201, 201);
     background-color: white;
-    /* transition: 0.5s; */
+    transition: 0.9s;
 
 }
 #cart{
@@ -473,8 +473,6 @@ footer a:hover{
     margin-left: 3%;
     font-weight: 500;
     color: #878787;
-  
-
 
   }
   .Highlights-table{
