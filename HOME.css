@@ -16,20 +16,25 @@ body{
     height: 45px;
     display: flex;
     padding: 15px 0px 0px 310px;
+    justify-content: center;
 }
 .symbol{
     height: 30px;
+    margin: 0% 5% 0% -30%;
+    float: left;
+    position: relative;
    
 }
 .search{
     height: 30px;
-    width: 260px;   
+    width: 50%;   
 }
 .head{
     display: flex;
-    padding: 0% 5% 0% 7%;
+    padding: 0% 5% 0% 0%;
     border: solid 0.1px rgb(201, 201, 201);
-    background-color: white;
+    background-color: white; 
+    justify-content: center; 
 }
 .head img{
     height: 75px;
@@ -111,7 +116,7 @@ body{
   width: 800px;
   margin-top: -245px;
   display: flex;
-  left: 700px;
+  left: 45%;
 }
 
 .manual-btn{
@@ -135,23 +140,23 @@ body{
 }
 
 #radio2:checked ~ .first{
-  margin-left: -1600px;
+  margin-left: -100vw;
 }
 
 #radio3:checked ~ .first{
-  margin-left: -3200px;
+  margin-left: -200vw;
 }
 
 #radio4:checked ~ .first{
-  margin-left: -4800px;
+  margin-left: -300vw;
 }
 
 #radio5:checked ~ .first{
-    margin-left: -6400px;
+    margin-left: -400vw;
 }
 
 #radio6:checked ~ .first{
-    margin-left: -8000px;
+    margin-left: -500vw;
 }
 
 
@@ -159,8 +164,8 @@ body{
   position: absolute;
   display: flex;
   width: 800px;
-  left: 700px;
-  margin-top: 255px;
+  left: 45%;
+  margin-top: 255.8px;
 }
 
 .navigation-auto div{
@@ -205,7 +210,7 @@ body{
 
 .day{
     border: solid;
-    width: 1250px;
+    width: 80%;
     height: 50px;
     position: relative;
     top: -230px;
@@ -234,7 +239,7 @@ body{
     border:solid;
     display: flex;
     float: left;
-    width: 1230px;
+    width: 80%;
     overflow-x: hidden;
     position: relative;
     left: -25px;
@@ -252,9 +257,9 @@ body{
 .ref{
     float: left;
     height: 300px;
-    width: 297px;
+    width: 10%;
     position: relative;
-    top: -335px;
+    top: -278px;
     left: -23px;
     border:none;
 }
@@ -294,7 +299,7 @@ body{
 #next{
     position: relative;
     float: right;
-    left: -325px;
+    left: -18.4%;
     z-index: 10;
     top: -130px;
     border-radius: 50px;
@@ -308,76 +313,62 @@ body{
 /* ----------------------- */
 
 
-.mobile_image{
-    display: flex;
-    position: relative;
-    top: -270px;
-    left: -250px;
-    transition: 1s;
-    
+.mobilebox{
+  border: solid;
+  height: 350px;
+  width: 96.3%;
+  position: relative;
+  left: 25px;
+  top: -228px;
+  border: solid 0.1px rgb(201, 201, 201);
+  overflow: hidden;
 }
-.mobile_image img{
-  margin-top: 50px;
-    height: 200px;
-    margin-left: 80px;
-    position: relative;
-    /* left: 110px; */
-    
-}
-.mobil{
-    width: 96.5%;
+.div1{
     border: solid;
-    height: 50px;
-    position: relative;
-    top: 50px;
-    left: 25px;
-    border: solid 0.1px rgb(201, 201, 201);
-    background-color: white;
+      width: 100%;
+      height: 50px;
+      position: relative;
+      border: solid 0.1px rgb(201, 201, 201);
+      background-color: white;
+  
 }
-.mobile{
-    height: 330px;
-    width: 96.5%;
-    border: solid;
-    position: relative;
-    top: 50px;
-    left: 25px;
-    border: solid 0.1px rgb(201, 201, 201);
-    background-color: white;
-    
-}
-
-.mobil > span{
+.div1 span{
     margin: 1.0% 0% 0% 3%;
-    float: left;
-    font-size: 23px;
-    position: relative;
-    top: -333px;
-}
-.mobile_image figcaption span{
-  margin: 0% 0% 0% 5%;
-}
-.mobile_image figcaption {
-  margin: 0% 0% 0% 40%;
-}
-.mobil button{
+      float: left;
+      font-size: 23px;
+  }
+  .div1 button{
     float: right;
-    margin: 0.7% 2% 0% 0%;
-    height: 35px;
-    width: 100px;
-    border: none;
-    background-color: #2873f0;
-    color: white;
-    position: relative;
-    top: -333px;
-}
+      margin: 0.7% 2% 0% 0%;
+      height: 35px;
+      width: 100px;
+      border: none;
+      background-color: #2873f0;
+      color: white;
+  }
+  
+  .div2{
+      display: flex;
+      float: left;
+      overflow-x: hidden;
+      position: relative;
+      left: 0px;
+      z-index: -10;
+      background-color: white;
+      transition: 1s;
+  }
+  .div2 img{
+    height: 180px;
+    margin: 20px 30px 0px 30px;
+  
+  }
+  
 #pre2{
-    position: relative;
-    float: left;
-    left: -140px;
-    z-index: 10;
-    top: -40px;
     border-radius: 50px;
     border:none;
+    position: relative;
+    top: -400px;
+    left: 2%;
     width: 50px;
     height: 50px;
     visibility: hidden;
@@ -387,9 +378,8 @@ body{
 #next2{
     position: relative;
     float: right;
-    left: 155px;
-    z-index: 10;
-    top: -40px;
+    top: -400px;
+    right: 3%;
     border-radius: 50px;
     border:none;
     width: 50px;
@@ -404,7 +394,7 @@ body{
 
 footer{
   
-  margin: 40px 0px 0px 0px;
+  margin: -260px 0px 0px 0px;
   width: 94.5%;
   position: relative;
   left: 25px;
@@ -417,6 +407,9 @@ footer{
   text-decoration: none;
   list-style-type: none;
 }
+footer a:hover{
+  text-decoration: underline;
+}
 
 .about a, .help a, .policy a, .social a{
   color: white;
@@ -426,6 +419,10 @@ footer{
 }
 .mail,.office{
   margin: 0px 0px 0px 80px;
+}
+
+.rupee{
+  font-weight: 600;
 }
 
 
