@@ -112,14 +112,13 @@
   .rig{
        background-color: white;
        height: 50px;
-       margin: 0px 0px 0px 0px;   
+       margin: 0px 0px -14px 0px;   
        
        
   }
   .error{
       background-color: white;
-      height: 490px;
-      padding-top: 10px;
+      height: 501px;
   }
 
 
