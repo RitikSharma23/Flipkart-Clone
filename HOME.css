@@ -408,6 +408,9 @@ footer{
   text-decoration: none;
   list-style-type: none;
 }
+footer a:hover{
+  text-decoration: underline;
+}
 
 .about a, .help a, .policy a, .social a{
   color: white;
