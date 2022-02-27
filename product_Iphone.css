@@ -90,6 +90,36 @@
     border: solid 0.1px rgb(201, 201, 201);
     background-color: white;
   }
+.temp{
+  width: 80px;
+  height: 440px;
+  border: none;
+  margin: 50px 0px 0px 0px;
+  float: left;
+}
+.temp img{
+  height: 75px;
+  width: 70px;
+  margin: 0px 0px 0px -4px;
+}
+.temp button{
+  border: solid 0.1px rgb(201, 201, 201);
+  background-color: white;
+}
+.photo{
+  border: solid;
+  float: left;
+  margin: 10px 0px 0px 0px;
+  width: 440px;
+  height: 600px;
+  background-image: url("icons/Iphone_icons/2.jpeg");
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: 20px;
+  border: solid 0.1px rgb(201, 201, 201);
+    background-color: white;
+
+}
 
 
 
@@ -145,7 +175,6 @@
 
 
 
-  
 
   /*-----------------------Iphone specs-----------------------------*/
 
