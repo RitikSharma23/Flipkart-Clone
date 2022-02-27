@@ -32,7 +32,7 @@
       var a=document.getElementById("div2");
       var b=document.getElementById("next2");
       var c=document.getElementById("pre2");
-      a.style.left="-1000px";
+      a.style.left="-47vw";
       b.style.visibility="hidden";
       c.style.visibility="visible";
     }
