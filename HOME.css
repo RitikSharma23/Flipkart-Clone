@@ -394,10 +394,12 @@ body{
 
 footer{
   
-  margin: -260px 0px 0px 0px;
-  width: 94.5%;
+  margin: 0px 0px 0px 0px;
+  width: 94.6%;
   position: relative;
   left: 25px;
+  float: left;
+  top: -260px;
   border: solid 0.1px rgb(201, 201, 201);
   background-color: #172437;
   display: flex;
