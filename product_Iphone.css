@@ -521,6 +521,16 @@ footer a:hover{
 
   }
 
+  .tgeneral{
+    border: 1px solid #f0f0f0;
+    width: 95%;
+    margin-left: 4%;
+    line-height: 33px;
+    padding: 0% 0% 0% 5%;
+
+    
+  }
+
 
 
 
@@ -536,12 +546,38 @@ footer a:hover{
     visibility: visible;
     /* transition: 1s; */
   }
-  .fc{
+  
+  .Manufacturing{
+    border: 1px solid #f0f0f0;
+    width: 95%;
+    margin-left: 3%;
+    line-height: 33px;
+    padding: 0% 0% 0% 0%;
+    color: #2874f0;
+    font-weight: 550;
+    font-size: 14px;
 
-    word-break: break-all;
-    padding: 0% 6% 0% 3%;
+
   }
 
+  .shield{
+
+    margin-top: 3%;
+    margin-left: 10%;
+    
+
+
+  }
+
+  .shield-text{
+
+  
+    margin-left: 20%;
+    font-size: 14px;
+    color: #878787;
+
+
+  }
   
   
   
