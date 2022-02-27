@@ -112,7 +112,7 @@
 
   .rig{
        background-color: white;
-       height: 555px;
+       height: 350px;
        margin: 0px 0px -14px 0px;  
        position: relative;
        left: 350px;
@@ -132,6 +132,12 @@
     left: 3%;
     top: 10px;
     color: rgb(145, 145, 145);
+    font-size: 12px;
+  }
+
+  .pic{
+       height: 120px;
+       width: 200px;
   }
 
 
