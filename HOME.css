@@ -323,6 +323,7 @@ body{
   top: -228px;
   border: solid 0.1px rgb(201, 201, 201);
   overflow-x: hidden;
+  margin: 0px 0px -300px 0px;
 }
 .div1{
     border: solid;
