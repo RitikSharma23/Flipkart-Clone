@@ -93,7 +93,6 @@ body{
   width: 100vw;
   height: 500px;
   display: flex;
-  border: solid;
 }
 
 .slides input{
@@ -141,23 +140,23 @@ body{
 }
 
 #radio2:checked ~ .first{
-  margin-left: -1600px;
+  margin-left: -100vw;
 }
 
 #radio3:checked ~ .first{
-  margin-left: -3200px;
+  margin-left: -200vw;
 }
 
 #radio4:checked ~ .first{
-  margin-left: -4800px;
+  margin-left: -300vw;
 }
 
 #radio5:checked ~ .first{
-    margin-left: -6400px;
+    margin-left: -400vw;
 }
 
 #radio6:checked ~ .first{
-    margin-left: -8000px;
+    margin-left: -500vw;
 }
 
 
