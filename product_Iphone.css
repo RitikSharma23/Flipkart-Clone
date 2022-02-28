@@ -95,7 +95,7 @@
 
   .specs{
     width: 50%;
-    height: auto;
+    height: 4200px;
     margin-left: 0%;
     float: left;
     border: solid 0.1px rgb(201, 201, 201);
@@ -235,7 +235,7 @@
     border-radius: 50px;
     border:none;
     position: relative;
-    top: -400px;
+    top: 270px;
     left: 2%;
     width: 50px;
     height: 50px;
@@ -246,7 +246,7 @@
 #next2{
     position: relative;
     float: right;
-    top: -400px;
+    top: 270px;
     right: 3%;
     border-radius: 50px;
     border:none;
@@ -538,7 +538,7 @@ footer a:hover{
   #iphone{
     position: absolute;
     display: block;
-    top: 901px;
+    top: 4799px;
     left: 96px;
     height: 180px;
     visibility: visible;
@@ -560,7 +560,7 @@ footer a:hover{
 
   .shield{
 
-    margin-top: 3%;
+    margin-top: 7%;
     margin-left: 10%;
     
 
@@ -573,6 +573,7 @@ footer a:hover{
     margin-left: 20%;
     font-size: 14px;
     color: #878787;
+    margin-top: -5%;
 
 
   }
