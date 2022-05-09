@@ -6,6 +6,7 @@
         counter = 1;
       }
     }, 5000);
+    
     document.getElementById("next").addEventListener("click",next);
     document.getElementById("pre").addEventListener("click",pre);
     function next(){
