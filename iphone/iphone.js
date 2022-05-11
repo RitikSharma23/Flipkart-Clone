@@ -28,6 +28,7 @@ function a5(){
 
 
 
+document.getElementById("user").innerHTML=localStorage.getItem("tempid")
 
 
 
