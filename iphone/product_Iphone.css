@@ -1,0 +1,589 @@
+*{
+    font-family:  Arial, Helvetica, Raleway and Museo;
+    font-weight: 400;
+  }
+  
+  
+  body{
+      overflow-x: hidden;
+      margin: 0%;
+      padding: 0%;
+      background-color: #ebebeb;
+  }
+  .nav{
+      background-color: #2873f0;
+      /* border:solid; */
+      height: 45px;
+      display: flex;
+      padding: 15px 0px 0px 310px;
+  }
+  .symbol{
+      height: 30px;
+     
+  }
+  .search{
+      height: 30px;
+      width: 260px;   
+  }
+  .head{
+      display: flex;
+      padding: 0% 5% 0% 7%;
+      border: solid 0.1px rgb(201, 201, 201);
+      background-color: white;
+  }
+  .head img{
+      height: 75px;
+      margin:0% 4% 0% 0%;
+  }
+  .user {
+    position: relative;
+    display: inline-block;
+  }
+  .drop{
+    color: white;
+    position: relative;
+    top: 8px;
+    font-size: 19px;
+    margin: 0px 0px 0px 50px;
+    font-weight:bolder ;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .user:hover .dropdown-content {display: block;}
+  
+  /*-----------------iphone image----------------  */
+
+
+  .left{
+    width: 540px;
+      height: 3582px;
+      margin-left: 7%;
+      float: left;
+      border: none 0.1px rgb(201, 201, 201);
+      background-color: white;
+      position: sticky;
+      top: 0;
+      padding: 0px 0px 80px 0px;
+  }
+
+  .image{
+      width: 540px;
+      float: left;
+      border: none 0.1px rgb(201, 201, 201);
+      background-color: white;
+      position: sticky;
+      top: 0;
+  }
+
+  .specs{
+    width: 50%;
+    height: 4200px;
+    margin-left: 0%;
+    float: left;
+    border: solid 0.1px rgb(201, 201, 201);
+    background-color: white;
+  }
+.temp{
+  width: 80px;
+  height: 440px;
+  border: none;
+  margin: 50px 0px 0px 0px;
+  float: left;
+  
+}
+.temp img{
+  height: 75px;
+  width: 70px;
+  margin: 0px 0px 0px -4px;
+  position: sticky;
+  top: 0;
+}
+.temp button{
+  border: solid 0.1px rgb(201, 201, 201);
+  background-color: white;
+  
+}
+.photo{
+  border: solid;
+  float: left;
+  margin: 10px 0px 0px 0px;
+  width: 440px;
+  height: 600px;
+  background-image: url("1.jpeg");
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: 20px;
+  border: solid 0.1px rgb(201, 201, 201);
+    background-color: white;
+    transition: 0.9s;
+
+}
+#cart{
+  background-color: #ff9f00;
+  height: 50px;
+  border: none;
+  width: 200px;
+  font-weight: 600;
+  color: white;
+  font-size: 20px;
+  margin: 20px 0px 0px 80px;
+}
+
+#buy{
+  background-color: #fb641b;
+  height: 50px;
+  border: none;
+  width: 200px;
+  font-weight: 600;
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------footer */
+
+
+
+
+
+.mobilebox{
+  border: solid;
+  height: 350px;
+  width: 96.3%;
+  position: relative;
+  left: 25px;
+  top: 450px;
+  border: solid 0.1px rgb(201, 201, 201);
+  overflow: hidden;
+}
+.div1{
+    border: solid;
+      width: 100%;
+      height: 50px;
+      position: relative;
+      border: solid 0.1px rgb(201, 201, 201);
+      background-color: white;
+  
+}
+.div1 span{
+    margin: 1.0% 0% 0% 3%;
+      float: left;
+      font-size: 23px;
+  }
+  .div1 button{
+    float: right;
+      margin: 0.7% 2% 0% 0%;
+      height: 35px;
+      width: 100px;
+      border: none;
+      background-color: #2873f0;
+      color: white;
+  }
+  
+  .div2{
+      display: flex;
+      float: left;
+      overflow-x: hidden;
+      position: relative;
+      left: 0px;
+      z-index: -10;
+      background-color: white;
+      transition: 1s;
+  }
+  .div2 img{
+    height: 180px;
+    margin: 20px 30px 0px 30px;
+  
+  }
+  
+#pre2{
+    border-radius: 50px;
+    border:none;
+    position: relative;
+    top: 270px;
+    left: 2%;
+    width: 50px;
+    height: 50px;
+    visibility: hidden;
+    box-shadow: 0px 0px 10px 3px rgb(114, 114, 114) ;
+    
+}
+#next2{
+    position: relative;
+    float: right;
+    top: 270px;
+    right: 3%;
+    border-radius: 50px;
+    border:none;
+    width: 50px;
+    height: 50px;
+    visibility: visible;
+    box-shadow: 0px 0px 10px 3px rgb(114, 114, 114) ;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  
+  margin: 0px 0px -230px 0px;
+  width: 94.6%;
+  position: relative;
+  left: 25px;
+  float: left;
+  top: 420px;
+  border: solid 0.1px rgb(201, 201, 201);
+  background-color: #172437;
+  display: flex;
+  height: 250px;
+  padding: 30px 0px 0px 30px;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+
+.about a, .help a, .policy a, .social a{
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  margin-right: 40%;
+}
+.mail,.office{
+  margin: 0px 0px 0px 80px;
+}
+
+.rupee{
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*-----------------------Iphone specs-----------------------------*/
+
+  .Iphone-13{
+    margin-top: 5%;
+    margin-left: 20%;
+  
+  }
+
+  .tname{
+    font-size: inherit;
+    font-weight: inherit;
+    display: inline-block;
+    margin-top: 4%;
+    margin-left: 3%;
+  
+  }
+
+  .ratings{
+    margin-top: 9%;
+    margin-left:-43.5%;
+    display: inline-block;
+    color: #fff;
+    padding: 2px 4px 2px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    vertical-align: middle;
+    background-color: #388e3c;
+  }
+
+  .rating-2{
+    margin-top: -3%;
+    margin-left:10.5%;
+  }
+ 
+
+  .rating-23{
+    color: rgb(135 135 135);
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .fasured{
+    vertical-align: middle;
+  }
+
+  .price{
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size: 28px;
+    font-weight: 500;
+    color: #212121;
+  }
+
+  .offers{
+    margin-top: 2%;
+    margin-left: 3%;
+    font-size: 17px;
+    font-weight: 500;
+    color: #212121;
+    
+  }
+
+  .shop{
+    margin-top: 2%;
+    margin-left: 3%;
+    list-style-type: none;
+    line-height: 10px;
+  }
+
+  .lshop{
+    margin-top: 15px;
+
+
+  }
+
+  .iss{
+    margin-top: -125px;
+    margin-left: 8% ;
+    list-style-type: none;
+    line-height: 33px;
+    
+
+  }
+
+  .isss{
+    font-weight: 600;
+
+  }
+
+  .tc{
+    color: #2874f0;
+    font-weight: 550;
+    font-size: 13px;
+  }
+
+  .ilogo{
+    margin-top: 30px;
+    margin-left: 3%;
+    width: 76px;
+    height: 32px;
+    border: 1px solid #f0f0f0;
+    position: relative;
+  }
+
+  .ig{
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 4px;
+  }
+
+  .Warranty{
+
+    float: right;
+    margin-top: -4%;
+    margin-right: 40%;
+  }
+
+  .Highlights{
+
+    margin-top: 5%;
+    margin-left: 3%;
+    font-weight: 500;
+    color: #878787;
+
+  }
+  .Highlights-table{
+    
+    margin-top: 2%;
+    margin-left: 2.5%;
+    line-height: 170%;
+    font-size: 15px;
+    
+  }
+
+  .sc{
+    
+    margin-top: 2%;
+    margin-left: 3%;
+  }
+
+
+  .Specifications{
+
+    margin-top: 2%;
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    padding: 24px 30px 24px 24px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.14;
+    color: #212121;
+    border: 1px solid #f0f0f0;
+    width: 87%;
+    
+  }
+
+  .general{
+    border: 1px solid #f0f0f0;
+    width: 95%;
+    margin-left: 3%;
+    line-height: 33px;
+    padding: 0% 0% 0% 5%;
+    
+
+
+
+  }
+
+  .tgeneral{
+    border: 1px solid #f0f0f0;
+    width: 95%;
+    margin-left: 4%;
+    line-height: 33px;
+    padding: 0% 0% 0% 5%;
+
+    
+  }
+
+
+
+
+
+
+
+  #iphone{
+    position: absolute;
+    display: block;
+    top: 4799px;
+    left: 96px;
+    height: 180px;
+    visibility: visible;
+    /* transition: 1s; */
+  }
+  
+  .Manufacturing{
+    border: 1px solid #f0f0f0;
+    width: 95%;
+    margin-left: 3%;
+    line-height: 33px;
+    padding: 0% 0% 0% 0%;
+    color: #2874f0;
+    font-weight: 550;
+    font-size: 14px;
+
+
+  }
+
+  .shield{
+
+    margin-top: 7%;
+    margin-left: 10%;
+    
+
+
+  }
+
+  .shield-text{
+
+  
+    margin-left: 20%;
+    font-size: 14px;
+    color: #878787;
+    margin-top: -5%;
+
+
+  }
+  
+  
+  
+ 
+
+  
+   
+
+
+

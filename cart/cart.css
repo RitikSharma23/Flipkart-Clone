@@ -1,0 +1,127 @@
+ *{
+    font-family:  Arial, Helvetica, Raleway and Museo;
+    font-weight: 400;
+  }
+  
+  
+  body{
+      overflow-x: hidden;
+      margin: 0%;
+      padding: 0%;
+      background-color: #f1f2f4;
+  }
+  .nav{
+      background-color: #2873f0;
+      /* border:solid; */
+      height: 45px;
+      display: flex;
+      padding: 15px 0px 0px 310px;
+      justify-content: center;
+  }
+  .symbol{
+      height: 30px;
+      margin: 0% 5% 0% -30%;
+      float: left;
+      position: relative;
+     
+  }
+  .search{
+      height: 30px;
+      width: 50%;   
+  }
+  .head{
+      display: flex;
+      padding: 0% 5% 0% 0%;
+      border: solid 0.1px rgb(201, 201, 201);
+      background-color: white; 
+      justify-content: center; 
+  }
+  .head img{
+      height: 75px;
+      margin:0% 4% 0% 0%;
+  }
+  .user {
+    position: relative;
+    display: inline-block;
+  }
+  .drop{
+    color: white;
+    position: relative;
+    top: 8px;
+    font-size: 19px;
+    margin: 0px 0px 0px 50px;
+    font-weight:bolder ;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .user:hover .dropdown-content {display: block;}
+
+
+  /* ------------------------------------ */
+
+
+.left{
+    width: 55%;
+    float: left;
+    padding: 0% 0% 3% 0%;
+    height: 67vh;
+    margin: 4% 0% 0% 5%;
+    border: solid 0.1px rgb(201, 201, 201);
+    background-color: white;
+  
+}
+
+.right{
+    border: solid;
+    float: right;
+    padding: 0% 0% 0% 0%;
+    height: 6vh;
+      width: 30%;
+      height: 50px;
+      margin: 4% 6% 0% 0%;
+      position: relative;
+      border: solid 0.1px rgb(201, 201, 201);
+      background-color: white;
+  
+}
+
+
+
+
+/* -------------left  */
+
+.top span{
+    float: left;
+    border: solid 0.1px rgb(201, 201, 201);
+    width: 25%;
+    padding:  2% 0% 2% 5%;
+    font-weight: 400;
+    font-size: 1.4vw;
+    visibility: visible;
+
+}
+
+.address{
+    width: 56%;
+    float: right;
+}
+  
+  

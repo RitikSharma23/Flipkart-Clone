@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body id="body">
+    <!-- <nav class="nav">
+        <img src="flipkart_symbol.png" class="symbol">
+        <input type="text" name="search" id="search" class="search" placeholder="Search for products, brands and more">
+
+        <div class="user">
+            <span class="drop">User</span>
+            <div class="dropdown-content">
+              <a href="#">My Profile</a>
+              <a href="#">Flipkart Plus Zone</a>
+              <a href="#">Orders</a>
+              <a href="#">Wishlist</a>
+              <a href="#">My Chats</a>
+              <a href="#">Coupn</a>
+              <a href="#">Gift Card</a>
+              <a href="#">Notification</a>
+            </div>
+          </div>
+          <div class="user">
+            <span class="drop">More</span>
+            <div class="dropdown-content">
+              <a href="#">Notification Preferences</a>
+              <a href="#">Sell On Flipkart</a>
+              <a href="customer.html">24 X 7 Customercare</a>
+              <a href="#">Advertise</a>
+              <a href="#">Download App</a>
+          </div>
+          
+    </nav>
+     -->
+
+     <div class="login">
+         <div class="img">
+             <p class="l1">Login</p>
+             <p class="l2">Get Excess To Your Orders Wishlist and Recommendations</p>
+         </div>
+
+         <div class="tex">
+         <input type="text"  id="name" placeholder="Enter Name"><br>
+         <input type="text"  id="email" placeholder="Enter Email/Mobile Number"><br>
+         <input type="text"  id="addres" placeholder="Enter Address"><br>
+         <input type="text"  id="pass" placeholder="Enter password"><br>
+         <input type="text"  id="cpass" placeholder="Comfirm password"><br>
+         <p class="terms">By continuing, you agree to Flipkart's <span style="color:#2873f0"> Terms of Use</span>  and <span style="color: #2873f0">Privacy Policy</span>.</p>
+
+         <br>
+         <button id="buy" disabled style="background-color:grey">Continue</button>
+
+         
+            
+         </div>
+     </div>
+
+
+
+
+     <style>
+
+*{
+    font-family:  Arial, Helvetica, Raleway and Museo;
+    font-weight: 400;
+  }
+  
+  
+  #body{
+      overflow-x: hidden;
+      margin: 0%;
+      padding: 0%;
+       
+  }
+  .nav{
+      background-color: #2873f0;
+      /* border:solid; */
+      height: 45px;
+      display: flex;
+      padding: 15px 0px 0px 310px;
+      justify-content: center;
+  }
+  .symbol{
+      height: 30px;
+      margin: 0% 5% 0% -30%;
+      float: left;
+      position: relative;
+     
+  }
+  .search{
+      height: 30px;
+      width: 50%;   
+  }
+  .head{
+      display: flex;
+      padding: 0% 5% 0% 0%;
+      border: solid 0.1px rgb(201, 201, 201);
+      background-color: white; 
+      justify-content: center; 
+  }
+  .head img{
+      height: 75px;
+      margin:0% 4% 0% 0%;
+  }
+  .user {
+    position: relative;
+    display: inline-block;
+  }
+  .drop{
+    color: white;
+    position: relative;
+    top: 8px;
+    font-size: 19px;
+    margin: 0px 0px 0px 50px;
+    font-weight:bolder ;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .user:hover .dropdown-content {display: block;}
+  
+  
+  /* ------------------------------------ */
+
+  .login{
+      border: 0.1px grey solid;
+      height: 88vh;
+      width: 60%;
+    background-color: white;
+    margin: auto;
+    /* margin-top: 2.5%; */
+    box-shadow: 0px 0px 1111110px 10px rgb(103, 99, 99);
+    margin-top: 2.5%;
+      
+  }
+.img{
+    border: none;
+    height: 100%;
+    width: 36%;
+    background-image: url("login.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.l1{
+    color: white;
+    font-weight: bold;
+    font-size: 180%;
+    margin:15% 10% 10% 20%
+}
+.l2{
+    color: white;
+    font-size: 100%;
+    margin:10% 10% 10% 10%
+}
+
+
+/* -----------------------------------------text part----------------- */
+
+.tex{
+    float:right;
+}
+
+
+
+.forgot{
+    text-decoration: none;
+    color:#2873f0;
+    position: relative;
+    top: -10vh;
+    left: 26vw;
+    font-weight: 500;
+    cursor: pointer;
+}
+#idd,#addres,#pass,#cpass,#name,#email{
+    margin: 10% 3vw 0% 0%;
+    width: 30vw;
+    height: 4vh;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 20px;
+}
+
+#pass{
+    margin: 10% 3vw 0% 0%;
+    width: 30vw;
+    height: 4vh;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-bottom: 5%;
+    padding-top: 7%;
+    font-size: 20px;
+}
+
+.terms{
+    font-size: 1vw;
+    word-break: break-all;
+    
+}
+
+#buy{
+    background-color: #fb641b;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 2% 0% 3% 0%;
+    width: 30vw;
+    height: 7vh;
+  }
+
+
+#otp{
+    background-color: white;
+    font-weight: 600;
+    color: black;
+    font-size: 20px;
+    border: none;
+    padding: 2% 0% 3% 0%;
+    width: 30vw;
+    height: 7vh;
+    box-shadow: 0px 5px 7px 0.1px rgb(115, 112, 112);
+    border: 1px grey;
+
+}
+
+#a2{
+    text-decoration: none;
+    color: #2873f0;
+    margin: 10%;
+    font-size: 1.3vw;
+
+}
+
+     </style>
+
+
+
+     <script>
+         
+document.getElementById("pass").addEventListener("keydown",pas)
+function pas(){
+    pass=document.getElementById("pass").value
+    cpass=document.getElementById("cpass").value
+
+    m1=/[A-Z]/g
+    m2=/[0-9]/g
+    m3=/@/g
+
+    f=pass.charAt(0)
+
+   x1=f.match(m1)
+   x2=pass.match(m2)
+   x3=pass.match(m3)
+
+
+   if(x1!=null && x2!=null || x3!=null){
+       document.getElementById("buy").disabled=false
+       document.getElementById("buy").style.backgroundColor="#fb641b"      
+
+       }else{
+       document.getElementById("buy").disabled=true
+    }
+
+    
+
+}
+document.getElementById("buy").addEventListener("click",register)
+
+function register(){
+    
+    name=document.getElementById("name").value
+    email=document.getElementById("email").value
+    address=document.getElementById("addres").value
+    ps=document.getElementById("pass").value
+    cpass=document.getElementById("cpass").value
+
+
+     if(ps!=cpass){
+        alert("password doesent match")
+    }else{
+        localStorage.setItem(email+"n",name)
+        localStorage.setItem(email+"e",email)
+        localStorage.setItem(email+"a",address)
+        localStorage.setItem(email+"p",pass)
+        alert("Your account has been created successfulluy!..")
+        location.href="profile.html"
+
+    }
+
+};
+
+     </script>
+
+     <script src="profile.js"></script>
+    </body>
+</html>
