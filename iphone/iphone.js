@@ -6,28 +6,29 @@ document.getElementById("btn5").addEventListener("click",a5);
 
 function a1(){
     var a=document.getElementById("photo");
-    a.style.backgroundImage="url(/icons/Iphone_icons/1.jpeg)";
+    a.style.backgroundImage="url(1.jpeg)";
 }
 function a2(){
     var a=document.getElementById("photo");
-    a.style.backgroundImage="url(/icons/Iphone_icons/2.jpeg)";
+    a.style.backgroundImage="url(2.jpeg)";
 }
 function a3(){
     var a=document.getElementById("photo");
-    a.style.backgroundImage="url(/icons/Iphone_icons/3.jpeg)";
+    a.style.backgroundImage="url(3.jpeg)";
 }
 function a4(){
     var a=document.getElementById("photo");
-    a.style.backgroundImage="url(/icons/Iphone_icons/4.jpeg)";
+    a.style.backgroundImage="url(4.jpeg)";
 }
 function a5(){
     var a=document.getElementById("photo");
-    a.style.backgroundImage="url(/icons/Iphone_icons/5.jpeg)";
+    a.style.backgroundImage="url(5.jpeg)";
 }
 
 
 
 
+document.getElementById("user").innerHTML=localStorage.getItem("tempid")
 
 
 
