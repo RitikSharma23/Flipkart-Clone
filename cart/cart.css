@@ -93,9 +93,8 @@
     border: solid;
     float: right;
     padding: 0% 0% 0% 0%;
-    height: 6vh;
+    /* height: 16vh; */
       width: 30%;
-      height: 50px;
       margin: 4% 6% 0% 0%;
       position: relative;
       border: solid 0.1px rgb(201, 201, 201);
@@ -108,7 +107,7 @@
 
 /* -------------left  */
 
-.top span{
+.cart{
     float: left;
     border: solid 0.1px rgb(201, 201, 201);
     width: 25%;
@@ -120,8 +119,35 @@
 }
 
 .address{
-    width: 56%;
+    width: 64.7%;
     float: right;
+    padding: 2.5% 0% 2% 5%;
+    border: solid 0.1px rgb(201, 201, 201);
+
 }
+
+.iphone{
+    float: left;
+    border: solid 0.1px rgb(201, 201, 201);
+    padding: 2.5% 0% 2% 5%;
+    
+    width: 95%;
+}
+
+.detail{
+    padding: 4% 0% 2% 7%;
+    width: 100%;
+    float: left;
+    color: rgb(95, 95, 95);;
+
+}
+
+.right table {
+    padding: 2% 0% 2% 6%;
+    width: 100%;
+    font-size: 1.4vw;
+}
+
+
   
   
