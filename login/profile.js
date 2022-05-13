@@ -10,7 +10,6 @@ function login(){
      cpass=localStorage.getItem(id+"p")
      nam=localStorage.getItem(id+"n")
      add=localStorage.getItem(id+"a")
-    //  em=localStorage.getItem(id+"e")
  
 
      if(id==""){
