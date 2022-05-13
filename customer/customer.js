@@ -1,5 +1,39 @@
+    document.getElementById("issue").addEventListener("click", () => {
+    document.getElementById("issuediv").style.display = "block"
+    document.getElementById("helpdiv").style.display = "none"
+    document.getElementById("flipdiv").style.display = "none"
+    document.getElementById("orderdiv").style.display = "none"
+    document.getElementById("canceldiv").style.display ="none"
+    document.getElementById("paydiv").style.display = "none"
+    document.getElementById("shopdiv").style.display = "none"
+    document.getElementById("walldiv").style.display = "none"
+    document.getElementById("shipdiv").style.display = "none"
+    document.getElementById("insdiv").style.display = "none"
+    document.getElementById("quidiv").style.display = "none"
+    document.getElementById("coindiv").style.display = "none"
+    document.getElementById("refdiv").style.display = "none"
+})
 
+    document.getElementById("help").addEventListener("click", () => {
+    document.getElementById("issuediv").style.display = "none"
+    document.getElementById("helpdiv").style.display = "block"
+    document.getElementById("flipdiv").style.display = "none"
+    document.getElementById("orderdiv").style.display = "none"
+    document.getElementById("canceldiv").style.display = "none"
+    document.getElementById("paydiv").style.display = "none"
+    document.getElementById("shopdiv").style.display = "none"
+    document.getElementById("walldiv").style.display = "none"
+    document.getElementById("shipdiv").style.display = "none"
+    document.getElementById("insdiv").style.display = "none"
+    document.getElementById("quidiv").style.display = "none"
+    document.getElementById("coindiv").style.display = "none"
+    document.getElementById("refdiv").style.display = "none"
+})
+
+   
     document.getElementById("flip").addEventListener("click",()=>{
+    document.getElementById("issuediv").style.display = "none"
+    document.getElementById("helpdiv").style.display = "none"   
     document.getElementById("flipdiv").style.display = "block"
     document.getElementById("orderdiv").style.display = "none"
     document.getElementById("canceldiv").style.display = "none"
@@ -13,6 +47,8 @@
     document.getElementById("refdiv").style.display = "none"
     })
     document.getElementById("order").addEventListener("click", () => {
+    document.getElementById("issuediv").style.display = "none"
+    document.getElementById("helpdiv").style.display = "none"
     document.getElementById("flipdiv").style.display = "none"
     document.getElementById("orderdiv").style.display = "block"
     document.getElementById("canceldiv").style.display = "none"
@@ -27,6 +63,8 @@
 })
 
     document.getElementById("cancel").addEventListener("click", () => {
+    document.getElementById("issuediv").style.display = "none"
+    document.getElementById("helpdiv").style.display = "none"
     document.getElementById("flipdiv").style.display = "none"
     document.getElementById("orderdiv").style.display = "none"
     document.getElementById("canceldiv").style.display = "block"
@@ -41,6 +79,8 @@
 })
 
     document.getElementById("pay").addEventListener("click", () => {
+    document.getElementById("issuediv").style.display = "none"
+    document.getElementById("helpdiv").style.display = "none"
     document.getElementById("flipdiv").style.display = "none"
     document.getElementById("orderdiv").style.display = "none"
     document.getElementById("canceldiv").style.display = "none"
@@ -54,7 +94,9 @@
     document.getElementById("refdiv").style.display = "none"
 })
 
-document.getElementById("shop").addEventListener("click", () => {
+    document.getElementById("shop").addEventListener("click", () => {
+    document.getElementById("issuediv").style.display = "none"
+    document.getElementById("helpdiv").style.display = "none"
     document.getElementById("flipdiv").style.display = "none"
     document.getElementById("orderdiv").style.display = "none"
     document.getElementById("canceldiv").style.display = "none"
@@ -77,12 +119,14 @@ document.getElementById("shop").addEventListener("click", () => {
     document.getElementById("walldiv").style.display = "block"
     document.getElementById("shipdiv").style.display = "none"
     document.getElementById("insdiv").style.display = "none"
-        document.getElementById("quidiv").style.display = "none"
+    document.getElementById("quidiv").style.display = "none"
     document.getElementById("coindiv").style.display = "none"
     document.getElementById("refdiv").style.display = "none"
 })
 
     document.getElementById("oth").addEventListener("click", () => {
+    document.getElementById("issuediv").style.display = "none"
+    document.getElementById("helpdiv").style.display = "none"
     document.getElementById("flipdiv").style.display = "none"
     document.getElementById("orderdiv").style.display = "none"
     document.getElementById("canceldiv").style.display = "none"
@@ -97,6 +141,8 @@ document.getElementById("shop").addEventListener("click", () => {
 })
 
     document.getElementById("ins").addEventListener("click", () => {
+    document.getElementById("issuediv").style.display = "none"
+    document.getElementById("helpdiv").style.display = "none"
     document.getElementById("flipdiv").style.display = "none"
     document.getElementById("orderdiv").style.display = "none"
     document.getElementById("canceldiv").style.display = "none"
@@ -105,12 +151,14 @@ document.getElementById("shop").addEventListener("click", () => {
     document.getElementById("walldiv").style.display = "none"
     document.getElementById("shipdiv").style.display = "none"
     document.getElementById("insdiv").style.display = "block"
-        document.getElementById("quidiv").style.display = "none"
+    document.getElementById("quidiv").style.display = "none"
     document.getElementById("coindiv").style.display = "none"
     document.getElementById("refdiv").style.display = "none"
 })
 
-document.getElementById("qui").addEventListener("click", () => {
+    document.getElementById("qui").addEventListener("click", () => {
+    document.getElementById("issuediv").style.display = "none"
+    document.getElementById("helpdiv").style.display = "none"
     document.getElementById("flipdiv").style.display = "none"
     document.getElementById("orderdiv").style.display = "none"
     document.getElementById("canceldiv").style.display = "none"
@@ -125,6 +173,8 @@ document.getElementById("qui").addEventListener("click", () => {
 })
 
     document.getElementById("coin").addEventListener("click", () => {
+    document.getElementById("issuediv").style.display = "none"
+    document.getElementById("helpdiv").style.display = "none"
     document.getElementById("flipdiv").style.display = "none"
     document.getElementById("orderdiv").style.display = "none"
     document.getElementById("canceldiv").style.display = "none"
@@ -133,12 +183,14 @@ document.getElementById("qui").addEventListener("click", () => {
     document.getElementById("walldiv").style.display = "none"
     document.getElementById("shipdiv").style.display = "none"
     document.getElementById("insdiv").style.display = "none"
-        document.getElementById("quidiv").style.display = "none"
+    document.getElementById("quidiv").style.display = "none"
     document.getElementById("coindiv").style.display = "block"
     document.getElementById("refdiv").style.display = "none"
 })
 
-   document.getElementById("ref").addEventListener("click", () => {
+    document.getElementById("ref").addEventListener("click", () => {
+    document.getElementById("issuediv").style.display = "none"
+    document.getElementById("helpdiv").style.display = "none"
     document.getElementById("flipdiv").style.display = "none"
     document.getElementById("orderdiv").style.display = "none"
     document.getElementById("canceldiv").style.display = "none"
@@ -147,7 +199,7 @@ document.getElementById("qui").addEventListener("click", () => {
     document.getElementById("walldiv").style.display = "none"
     document.getElementById("shipdiv").style.display = "none"
     document.getElementById("insdiv").style.display = "none"
-       document.getElementById("quidiv").style.display = "none"
+    document.getElementById("quidiv").style.display = "none"
     document.getElementById("coindiv").style.display = "none"
     document.getElementById("refdiv").style.display = "block"
 })
