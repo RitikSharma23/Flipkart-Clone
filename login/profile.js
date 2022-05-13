@@ -31,7 +31,7 @@ function login(){
         }
      }
  
-};
+}
 
 // function cook(){
 //     document.getElementById("idd").value=document.cookie
