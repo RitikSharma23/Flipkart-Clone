@@ -1,6 +1,7 @@
 
 
 document.getElementById("buy").addEventListener("click",login)
+document.getElementById("idd").addEventListener("focus",cook)
 
 function login(){
     id=document.getElementById("idd").value
@@ -22,7 +23,8 @@ function login(){
         }else{
             if(pass==cpass){
                 alert("match")
-                localStorage.setItem("tempid",nam)
+                id=document.getElementById("idd").value
+                document.cookie=localStorage.getItem("tempid")
                 location.href="/home/home.html"
             }else{
                 alert(("not match"))
@@ -31,3 +33,7 @@ function login(){
      }
  
 };
+
+// function cook(){
+//     document.getElementById("idd").value=document.cookie
+// }
