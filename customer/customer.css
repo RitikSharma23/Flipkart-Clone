@@ -218,3 +218,9 @@ hr{
   
 }
 
+.flip{
+  position: relative;
+    left: 3%;
+    top: 10px;
+}
+
