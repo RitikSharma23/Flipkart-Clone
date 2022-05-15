@@ -22,7 +22,7 @@ function login(){
         }else{
             if(pass==cpass){
                 alert("match")
-                localStorage.setItem("tempid",nam)
+                document.cookie=localStorage.getItem(id+"n")
                 location.href="/home/home.html"
             }else{
                 alert(("not match"))
