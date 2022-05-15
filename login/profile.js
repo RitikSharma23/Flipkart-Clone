@@ -1,6 +1,5 @@
-
-
 document.getElementById("buy").addEventListener("click",login)
+document.getElementById("idd").addEventListener("focus",cook)
 
 function login(){
     id=document.getElementById("idd").value
@@ -9,8 +8,6 @@ function login(){
      cpass=localStorage.getItem(id+"p")
      nam=localStorage.getItem(id+"n")
      add=localStorage.getItem(id+"a")
-    //  em=localStorage.getItem(id+"e")
- 
 
      if(id==""){
          alert("enter id")
@@ -30,4 +27,4 @@ function login(){
         }
      }
  
-};
+}

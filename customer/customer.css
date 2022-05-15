@@ -150,6 +150,7 @@
         width: 72%;
         float: left;
         margin-top: 20px;
+        display: none;
         
   }
 
@@ -218,3 +219,20 @@ hr{
   
 }
 
+.flip{
+  position: relative;
+    left: 3%;
+    top: 10px;
+}
+
+.ghk{
+    background-color: white;
+      height: 350px;
+      margin: 0px 0px -14px 0px;
+      position: relative;
+      left: 350px;
+      left: 20px;
+      width: 72%;
+      float: left;
+      display: none;
+}
