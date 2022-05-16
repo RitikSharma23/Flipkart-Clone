@@ -46,7 +46,7 @@
            
         <input type="text"  id="hno" placeholder="House NO/ Street "><br>
         <input type="text"  id="add1" placeholder="Address Line-1"><br>
-        <input type="text"  id="add2" placeholder="Address Line-2"><br>
+        <input type="text"  id="add2" placeholder="Address Line-2 (optional)"><br>
         <input type="text"  id="pin" placeholder="Pincode"><br>
         <input type="text"  id="city" placeholder="City"><br>
         <input type="text"  id="state" placeholder="State"><br>
@@ -260,19 +260,48 @@ document.getElementById("passs").addEventListener("keyup",()=>{
        document.getElementById("buy1").disabled=false
        document.getElementById("buy1").style.backgroundColor="#fb641b"      
        }else{
-       document.getElementById("buy1").disabled=true
        document.getElementById("buy1").style.backgroundColor="grey"      
     }
 })
 
-document.getElementById("state").addEventListener("blur",()=>{
+document.getElementById("state").addEventListener("keyup",()=>{
     hno=document.getElementById("hno").value
     add1=document.getElementById("add2").value
     add2=document.getElementById("add1").value
     pin=document.getElementById("pin").value
     city=document.getElementById("city").value
     state=document.getElementById("state").value
-  
+
+    if(hno!="" && add1!="" && pin!="" && city!="" && state!=""){
+       document.getElementById("buy2").disabled=false
+        document.getElementById("buy2").style.backgroundColor="#fb641b"
+    }else{
+       document.getElementById("buy1").disabled=true
+       document.getElementById("buy2").style.backgroundColor="grey"  
+    }
+})
+
+document.getElementById("buy2").addEventListener("click",()=>{
+    hno=document.getElementById("hno").value
+    add1=document.getElementById("add2").value
+    add2=document.getElementById("add1").value
+    pin=document.getElementById("pin").value
+    city=document.getElementById("city").value
+    state=document.getElementById("state").value
+
+    if(pin.match(/[0-9]/)==null){
+        alert("Please Enter Pincode In Number Format")
+    }else if(pin.length>6){
+        alert("Pincode Cannot be Grater Than 6")
+    }else if(pin.match<6){
+        alert("Pincode Not Less Than")
+    }
+    
+    if(pin.match(/[0-9]/)!=null && pin.length==6){
+        document.getElementById("buy2").disabled=false
+    }else{
+        document.getElementById("buy2").disabled=true
+    }
 })
 
 document.getElementById("buy1").addEventListener("click",()=>{
