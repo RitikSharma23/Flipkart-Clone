@@ -5,8 +5,13 @@ function login(){
     id=document.getElementById("idd").value
     pass=document.getElementById("pass").value
     
+<<<<<<< HEAD
     //  cpass=localStorage.getItem(id+"p")
     //  nam=localStorage.getItem(id+"n")
+=======
+     cpass=localStorage.getItem(id+"p")
+     nu=localStorage.getItem(id+"n")
+>>>>>>> f38aa59759fa1ae34903f0173adabb826fdcbc6e
     //  add=localStorage.getItem(id+"a")
 
      if(id==""){
