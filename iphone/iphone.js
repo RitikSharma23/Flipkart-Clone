@@ -6,23 +6,23 @@ document.getElementById("btn5").addEventListener("click",a5);
 
 function a1(){
     var a=document.getElementById("photo");
-    a.style.backgroundImage="url(1.jpeg)";
+    a.style.backgroundImage="url(C:/xampp/htdocs/Flipkart-Clone/iphone/icons/1.jpeg)";
 }
 function a2(){
     var a=document.getElementById("photo");
-    a.style.backgroundImage="url(2.jpeg)";
+    a.style.backgroundImage="url(icons/2.jpeg)";
 }
 function a3(){
     var a=document.getElementById("photo");
-    a.style.backgroundImage="url(3.jpeg)";
+    a.style.backgroundImage="url(icons/3.jpeg)";
 }
 function a4(){
     var a=document.getElementById("photo");
-    a.style.backgroundImage="url(4.jpeg)";
+    a.style.backgroundImage="url(icons/4.jpeg)";
 }
 function a5(){
     var a=document.getElementById("photo");
-    a.style.backgroundImage="url(5.jpeg)";
+    a.style.backgroundImage="url(icons/5.jpeg)";
 }
 
 
