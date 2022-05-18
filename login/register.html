@@ -276,33 +276,29 @@ document.getElementById("state").addEventListener("keyup",()=>{
        document.getElementById("buy2").disabled=false
         document.getElementById("buy2").style.backgroundColor="#fb641b"
     }else{
-       document.getElementById("buy1").disabled=true
+       document.getElementById("buy2").disabled=true
        document.getElementById("buy2").style.backgroundColor="grey"  
     }
 })
 
-document.getElementById("buy2").addEventListener("click",()=>{
-    hno=document.getElementById("hno").value
-    add1=document.getElementById("add2").value
-    add2=document.getElementById("add1").value
-    pin=document.getElementById("pin").value
-    city=document.getElementById("city").value
-    state=document.getElementById("state").value
+document.getElementById("nick").addEventListener("keyup",()=>{
+    nick=document.getElementById("nick").value
 
-    if(pin.match(/[0-9]/)==null){
-        alert("Please Enter Pincode In Number Format")
-    }else if(pin.length>6){
-        alert("Pincode Cannot be Grater Than 6")
-    }else if(pin.match<6){
-        alert("Pincode Not Less Than")
-    }
-    
-    if(pin.match(/[0-9]/)!=null && pin.length==6){
-        document.getElementById("buy2").disabled=false
+
+    if(nick!=""){
+       document.getElementById("buy3").disabled=false
+        document.getElementById("buy3").style.backgroundColor="#fb641b"
     }else{
-        document.getElementById("buy2").disabled=true
+       document.getElementById("buy3").disabled=true
+       document.getElementById("buy3").style.backgroundColor="grey"  
     }
+
+    document.getElementById("buy3").addEventListener("click",()=>{
+        location.href="/login/profile.html"
+    })
 })
+
+
 
 document.getElementById("buy1").addEventListener("click",()=>{
     
@@ -335,12 +331,12 @@ document.getElementById("buy1").addEventListener("click",()=>{
     if(ps!=cpass){
         alert("password doesent match")
     }else{
-        localStorage.setItem(email+"n",name)
-        localStorage.setItem(email+"e",email)
-        localStorage.setItem(email+"a",address)
-        localStorage.setItem(email+"p",pass)
+        localStorage.setItem(number+"na",name)
+        localStorage.setItem(number+"n",number)
+        localStorage.setItem(number+"e",email)
+        localStorage.setItem(number+"p",ps)
         alert("Your account has been created successfulluy!..")
-        location.href="profile.html"
+        // location.href="profile.html"
 
     }
 

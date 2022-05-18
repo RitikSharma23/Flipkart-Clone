@@ -6,8 +6,8 @@ function login(){
     pass=document.getElementById("pass").value
     
      cpass=localStorage.getItem(id+"p")
-     nam=localStorage.getItem(id+"n")
-     add=localStorage.getItem(id+"a")
+     nu=localStorage.getItem(id+"n")
+    //  add=localStorage.getItem(id+"a")
 
      if(id==""){
          alert("enter id")
@@ -19,7 +19,10 @@ function login(){
         }else{
             if(pass==cpass){
                 alert("match")
-                document.cookie=localStorage.getItem(id+"n")
+                document.cookie=localStorage.getItem(id+"na")
+                nam=localStorage.getItem(id+"na")
+
+                localStorage.setItem("temp",nam)
                 location.href="/home/home.html"
             }else{
                 alert(("not match"))
