@@ -6,7 +6,7 @@ document.getElementById("btn5").addEventListener("click",a5);
 
 function a1(){
     var a=document.getElementById("photo");
-    a.style.backgroundImage="url(C:/xampp/htdocs/Flipkart-Clone/iphone/icons/1.jpeg)";
+    a.style.backgroundImage="url(icons/1.jpeg)";
 }
 function a2(){
     var a=document.getElementById("photo");
