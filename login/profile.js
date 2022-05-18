@@ -27,9 +27,13 @@ function login(){
                 output=''
                for(var i in users){
                     if(id==users[i].number && pass==users[i].password){
-                        alert(users[i].name)
+                        alert("SuccessFully Logged In..")
+                        // location.href="localhost/Flipkart-Clone/home/home.html"
+                        location.href="/home/home.html"
+                        localStorage.setItem("tempid",users[i].name)
                     }else{
-                        alert("wrong id and password")
+                        alert("Sorry!..wrong id and password")
+
                     }
                }
             
